@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!-- <!DOCTYPE html> 声明为HTML5文档,doctype 声明是不区分大小写的-->
+<!--
+通用声明
+HTML5
+<!DOCTYPE html>
+
+HTML 4.01
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+XHTML 1.0
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+-->
+<html> <!-- <html>元素是HTML页面的根元素-->
+    <head> <!-- <head>元素包含了文档的元（meta）数据，如 <meta charset="utf-8"> 定义网页编码格式为 utf-8 -->
+        <meta charset="UTF-8"> <!-- 在大部分浏览器中，直接输出中文会出现中文乱码的情况，这时候我们就需要在头部将字符声明为 UTF-8 或 GBK-->
+        <title>R.G. Learn HTML</title> <!-- <title>元素描述了文档的标题-->
+    </head>
+     <body> <!-- <body>元素包含了可见的页面内容-->
+
+         <h1>HTML简介</h1>  <!-- <h1>元素定义了一个大标题-->
+                    HTML 是用来描述网页的一种语言。
+            <p>
+                HTML 指的是超文本标记语言: HyperText Markup Language <br/> <!-- <br>换行标签-->
+                <!--
+                    关闭标签是可选的,即使忘记了使用结束标签，大多数浏览器也会正确地显示 HTML
+                    但不要依赖这种做法。忘记使用结束标签会产生不可预料的结果或错误。
+                    没有内容的 HTML 元素被称为空元素。空元素是在开始标签中关闭的。
+                    <br> 就是没有关闭标签的空元素（<br> 标签定义换行）。
+                    在 XHTML、XML 以及未来版本的 HTML 中，所有元素都必须被关闭。
+                    在开始标签中添加斜杠，比如 <br />，是关闭空元素的正确方法，HTML、XHTML 和 XML 都接受这种方式。
+                    即使 <br> 在所有浏览器中都是有效的，但使用 <br /> 其实是更长远的保障。
+                -->
+                HTML 不是一种编程语言，而是一种标记语言 <br>
+                标记语言是一套标记标签 (markup tag)<br>
+                HTML 使用标记标签来描述网页<br>
+                 HTML 文档包含了HTML 标签及文本内容<br>
+                HTML文档也叫做 web 页面
+            </p>
+        <h1>h1标题测试</h1>
+        <h2>h2标题测试</h2>
+        <h3>h3标题测试</h3>
+        <h4>h4标题测试</h4>
+        <h5>h5标题测试</h5>
+        <h6>h6标题测试</h6>
+        
+        <h2>跳转链接测试</h2>
+        <a href="www.baidu.com">这是一个指向百度的HTML链接</a> <!-- 不知道为啥，这里会不能跳转成功-->
+
+        <h2>图片引用测试</h2>
+        <p>
+            <img src="images/emmet.png" width="1068" height="615" />
+        </p>
+
+        <h2>HTML元素语法简介</h2>
+        <p>
+                HTML 元素以开始标签起始 <br>  
+                HTML 元素以结束标签终止 <br>
+                元素的内容是开始标签与结束标签之间的内容 <br>
+                某些 HTML 元素具有空内容（empty content）<br>
+                空元素在开始标签中进行关闭（以开始标签的结束而结束）<br>
+                大多数 HTML 元素可拥有属性
+        </p>
+     </body>
+</html>
